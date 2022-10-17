@@ -1,0 +1,15 @@
+---
+"Göteborg":
+  "basic":
+    price_cents: 200_00
+  "plus":
+    price_cents: 599_00
+  "premium":
+    price_cents: 111100
+"Stockholm":
+  "basic":
+    price_cents: 150_00
+  "plus":
+    price_cents: 499_00
+  "premium":
+    price_cents: 121100
