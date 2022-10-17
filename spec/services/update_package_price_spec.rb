@@ -35,6 +35,7 @@ RSpec.describe UpdatePackagePrice do
 
   it "supports adding a price for a specific municipality" do
     package = Package.create!(name: "Dunderhonung")
+    Municipality.create!(name: "Göteborg")
 
     UpdatePackagePrice.call(package, 200_00, municipality: "Göteborg")
 
