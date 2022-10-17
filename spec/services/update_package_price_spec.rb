@@ -33,7 +33,7 @@ RSpec.describe UpdatePackagePrice do
   # This tests covers feature request 1. Feel free to add more tests or change
   # the existing one.
 
-  xit "supports adding a price for a specific municipality" do
+  it "supports adding a price for a specific municipality" do
     package = Package.create!(name: "Dunderhonung")
 
     UpdatePackagePrice.call(package, 200_00, municipality: "Göteborg")
